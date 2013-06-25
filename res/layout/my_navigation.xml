@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 我的导航 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mysiteitem="http://schemas.android.com/apk/res/com.eebbk.senior.greenbrowser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/MyNavigationButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_deletes"
+            android:textColor="@color/btn_dialogs" />
+
+        <!-- 经常访问 -->
+
+        <com.eebbk.senior.greenbrowser.view.MySitesView
+            android:id="@+id/frequentSitesSitesItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dip"
+            mysiteitem:type="0" >
+        </com.eebbk.senior.greenbrowser.view.MySitesView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <!-- 我的网站 -->
+
+            <com.eebbk.senior.greenbrowser.view.MySitesView
+                android:id="@+id/mySitesSitesItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/bg_grid"
+                android:orientation="vertical"
+                mysiteitem:type="1" >
+            </com.eebbk.senior.greenbrowser.view.MySitesView>
+
+            <!-- 新网推荐 -->
+
+            <com.eebbk.senior.greenbrowser.view.MySitesView
+                android:id="@+id/newSitesSitesItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/bg_grid_init"
+                android:orientation="vertical"
+                mysiteitem:type="2" >
+            </com.eebbk.senior.greenbrowser.view.MySitesView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

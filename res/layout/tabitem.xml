@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tabitem项 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dip"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:background="@drawable/tab_others"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_weight="9"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/tabProgress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:indeterminateDrawable="@drawable/tab_progress_image"
+            android:max="10000"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/tabImage"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/urismalllogo"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tabText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/tabcolors"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tabClose"
+        android:layout_width="0dip"
+        android:layout_height="20dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:background="@drawable/tab_closes"
+        android:visibility="invisible" />
+
+</LinearLayout>

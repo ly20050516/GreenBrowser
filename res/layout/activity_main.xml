@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:welcomeview="http://schemas.android.com/apk/res/com.eebbk.senior.greenbrowser"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.eebbk.welcomeview.WelcomeView
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        welcomeview:background_array="@array/backgrounds" />
+
+</FrameLayout>

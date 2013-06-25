@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="AddMyDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+　　		<item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="RecommandDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/popu_myrecommend_bg</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>        
+    </style>
+    
+    <style name="LimitVisitDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/limit_visit</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <array name="backgrounds">
+        <item>@drawable/feature_guide_0</item>
+        <item>@drawable/feature_guide_1</item>
+        <item>@drawable/feature_guide_2</item>
+        <item>@drawable/feature_guide_3</item>
+        <item>@drawable/feature_guide_4</item>
+    </array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" default="debug">
+    <property name="customlib.out" value="{source.absolute.dir}/../../../libout" />
+    
+    <target name="-pre-build" description="拷贝 本工程 需要的 jar包 .so, 到libs目录下">
+	<!-- 创建目标目录-->
+	<mkdir dir="${source.absolute.dir}/../libs/mips" />
+
+	<!-- 拷贝需要的jar到libs目录 -->
+	<copy file="${customlib.out}/screenshotsviewiner.jar" todir="${source.absolute.dir}/../libs" />
+    </target>
+</project>
+

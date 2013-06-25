@@ -1,0 +1,109 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 应用标题 -->
+    <string name="app_name">绿色上网</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_home">绿色上网</string>
+    <string name="home_page">首页</string>
+    <string name="start">开始</string>
+
+    <!-- 界面按钮 -->
+    <string name="my_navigation">我的导航</string>
+    <string name="site_navigation">网址导航</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_finish">完成</string>
+    <string name="btn_recommend">我要推荐</string>
+
+    <!-- Image描述信息 -->
+    <string name="underline">下划线</string>
+    <string name="urismalllogo">网站小图标</string>
+
+    <!-- 分块标签 -->
+    <string name="frequentTitle">经常访问</string>
+    <string name="mysiteTitle">我的网站</string>
+    <string name="newsiteTitle">家长添加</string>
+
+    <!-- 弹出对话框按键 -->
+    <string name="btn_add">添加至我的网站</string>
+    <string name="btn_canceladdsite">取消添加至我的网站</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_positive">确定</string>
+    <string name="btn_ok">提交</string>
+    <string name="btn_connect">连接</string>
+    <string name="hintTitle">温馨提示</string>
+    <string name="hintText">检测到网络无连接，请先连接网络！</string>
+    <string name="hintVisitText">哎呀！你访问的网页受限啦！</string>
+    <string name="prex_Image">读书笔记</string>
+    <string name="cannot_save">磁盘空间不足，无法保存</string>
+    <string name="saveImage">图片已保存到相册</string>
+    <string name="shotSuccess">图片已截取到读书笔记</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="freesize_short">磁盘空间不足，无法添加网站，您可以删除部分文件来释放空间！</string>
+    <string name="delete_frequent">亲、您已经无聊删了一圈啦！</string>
+
+    <!-- web -->
+    <string name="download_sdcard_busy_dlg_msg" product="nosdcard">USB存储不可用</string>
+    <string name="download_sdcard_busy_dlg_msg" product="default">SD卡不可用</string>
+    <string name="download_sdcard_busy_dlg_title" product="nosdcard">USB存储不可用</string>
+    <string name="download_sdcard_busy_dlg_title" product="default">SD卡不可用</string>
+    <string name="download_no_sdcard_dlg_msg">SD卡不存在</string>
+    <string name="download_no_sdcard_dlg_title">SD卡不存在</string>
+    <string name="cannot_download">不可下载的文件地址</string>
+    <string name="cannot_stored">磁盘空间不足，请清理磁盘后再下載！</string>
+    <string name="download_pending">开始下载\u2026</string>
+    <string name="fileexist">文件已存在！</string>
+    <string name="ok">确定</string>
+
+    <!-- 推荐新网址 -->
+    <string name="person_recommend">推荐新网址：</string>
+    <string name="person_recommend_hint">请填写您要推荐的网址或网站名称</string>
+    <string name="person_name">姓 名：</string>
+    <string name="person_age">年 龄：</string>
+    <string name="person_alias">昵 称：</string>
+    <string name="person_sex">性 别：</string>
+    <string name="person_area">地 区：</string>
+    <string name="person_school_type">学校类型：</string>
+    <string name="person_school">学校：</string>
+    <string name="person_grade">年 级：</string>
+
+    <!-- 提供一些网站名称 -->
+    <string name="logo_whys">十万个为什么</string>
+    <string name="logo_jyeoo">菁优网</string>
+    <string name="logo_kid_qq">腾讯儿童</string>
+    <string name="logo_aoshu">奥数网</string>
+    <string name="logo_children_english_online">儿童英语在线</string>
+    <string name="logo_china_education_online">中国教育在线</string>
+    <string name="logo_education_qq">腾讯教育</string>
+    <string name="logo_eebbk">步步高教育电子官网</string>
+    <string name="logo_xxyw">凤凰语文</string>
+    <string name="logo_global_english">环球时报英文版</string>
+    <string name="logo_middle_school_chinese_online">中学语文在线</string>
+    <string name="logo_sxydycom">数学伊甸园</string>
+    <string name="logo_kekenet">可可英语</string>
+    <string name="logo_ychxwnet">英才教育网</string>
+    <string name="logo_kidanimation_qq">腾讯儿童动画屋</string>
+    <string name="logo_disney">迪士尼中国官网</string>
+    <string name="logo_116online">天天在线儿童频道</string>
+    <string name="logo_yingyu">英语网</string>
+    <string name="logo_ebigear">大耳朵英语</string>
+    <string name="logo_english_weekly">英语周报</string>
+    <string name="logo_education_sina">新浪教育</string>
+    <string name="logo_zxxkcom_chemical">化学学科网</string>
+    <string name="logo_zxxkcom_math">数学学科网</string>
+    <string name="logo_zxxkcom_physics">物理学科网</string>
+    <string name="logo_english_starfire">星火英语小学网</string>
+    <string name="logo_12999_physics">12999物理站</string>
+    <string name="logo_12999_math">12999数学网</string>
+    <string name="logo_3edu">3edu物理频道</string>
+    <string name="logo_52ektcn">我爱E课堂</string>
+    <string name="logo_crazy_english">李阳疯狂英语</string>
+    <string name="logo_composition_liuyi">六一作文网</string>
+    <string name="logo_hujiang_english">沪江英语</string>
+    <string name="logo_modern_education">现代教育研究社有限公司</string>
+    <string name="logo_qiuq">秋千网</string>
+    <string name="logo_composition_primary">小学生优秀作文网</string>
+    <string name="logo_xue999">xue999</string>
+    <string name="logo_composition_yaya">丫丫作文网</string>
+    <string name="logo_composition_zuowen">作文网</string>
+
+</resources>
